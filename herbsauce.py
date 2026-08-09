@@ -4480,13 +4480,13 @@ playlabel.grid(column=0, row=4, sticky="nsew")
 playlabel2 = ttk.Label(frametab32, font=(14), text="")
 playlabel2.grid(column=0, row=5)
 
-vollabel = ttk.Label(frametab32, text="\n\n\n\n\n\nVolume:")
-vollabel.grid(column=0, row=6)
+vollabel = ttk.Label(frametab32, text="\nVolume:")
+vollabel.grid(column=0, row=6, sticky="nsew")
 
 volumemenu = ttk.OptionMenu(frametab32, varvolume, *listvolumes, command=lambda v: volumechange(varvolume.get()))
-volumemenu.grid(column=0, row=7)
+volumemenu.grid(column=0, row=7, sticky="nsew")
 
-blankchan = ttk.Label(frametab32, text="\n\n\n\n")
+blankchan = ttk.Label(frametab32, text="\n\n\n\n\n\n\n\n\n")
 blankchan.grid(column=0, row=8, sticky="nsew")
 
 chanlabel = ttk.Label(frametab32, text="Audio device")
