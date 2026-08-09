@@ -2532,7 +2532,7 @@ def changedir():
     
     customdir = fd.askdirectory(title="Select directory", initialdir='.')
     
-    labeldirbutton.configure(text="Custom .herb output directory: \n" + str(customdir) +"")
+    labeldirbutton.configure(text="Custom .herb output directory: \n" + str(customdir) + "")
     
     cdircheck = True
     
@@ -4414,7 +4414,7 @@ else:
     labelsoundcard.grid(column=0, row=31, sticky="w")
 
 
-labeldirbutton = ttk.Label(frametab53, text=" \n")
+labeldirbutton = ttk.Label(frametab53, text=" ")
 labeldirbutton.grid(column=0, row=33, columnspan=50, sticky="w")
 
 playblank0 = ttk.Label(frametab32, text="")
