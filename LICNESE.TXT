@@ -1,0 +1,11 @@
+The program herb sauce and the .herb lossless audio file format are released into the world, with the
+intention of being free and open source. Hopefully they are used for good purposes and not bad ones.
+
+For further information regarding the licenses of the packages I import in my code, please check with their
+respective documentation, licenses, or developers.
+
+The butter and peppers logo is a real picture I took with my phone of real peppers that I grew, with a
+real stick of butter that I bought, on a cheeseboard I have. I am making it public domain, since I use it
+throughout the open source herb sauce software.
+
+herb
